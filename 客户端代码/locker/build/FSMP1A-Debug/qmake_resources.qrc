@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/locker">
+<file alias="main.qml">/home/linux/QtStudy/locker/main.qml</file>
+</qresource>
+</RCC>

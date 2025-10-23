@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/page">
+        <file>login.qml</file>
+        <file>register.qml</file>
+        <file>deliver.qml</file>
+        <file>pickup.qml</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icon.png</file>
+        <file>pickup.png</file>
+        <file>pickup1.png</file>
+        <file>delivery.png</file>
+        <file>logo.png</file>
+        <file>back.png</file>
+        <file>keyboard.png</file>
+        <file>home.png</file>
+        <file>pickup2.png</file>
+        <file>phone.png</file>
+        <file>password.png</file>
+        <file>login.png</file>
+        <file>register.png</file>
+        <file>company.png</file>
+        <file>password_confirm.png</file>
+        <file>confirm.png</file>
+        <file>cancel.png</file>
+        <file>delivery1.png</file>
+        <file>phone_confirm.png</file>
+        <file>parcel.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>background.jpg</file>
+        <file>background1.jpg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

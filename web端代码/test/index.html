@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快递柜管理后台登录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        body {
+            background-color: #f0f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .login-card {
+            background: white;
+            width: 100%;
+            max-width: 350px;
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .login-card h2 {
+            text-align: center;
+            color: #11999e;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .input-group {
+            margin-bottom: 22px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #d1e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        .input-group input:focus {
+            outline: none;
+            border-color: #11999e;
+            box-shadow: 0 0 0 2px rgba(17, 153, 158, 0.1);
+        }
+        .input-group input::placeholder {
+            color: #a0b3b3;
+            font-size: 15px;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 13px;
+            background-color: #11999e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .login-btn:hover {
+            background-color: #0e8084;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <h2>快递柜管理后台</h2>
+        <form action="/cgi-bin/login.cgi" method="post">
+            <div class="input-group">
+                <input type="text" name="username" placeholder="请输入管理员账号" required>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="请输入密码" required>
+            </div>
+            <button type="submit" class="login-btn">登录</button>
+        </form>
+    </div>
+</body>
+</html>
